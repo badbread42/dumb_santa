@@ -1,0 +1,27 @@
+# установка джанго
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org django
+
+# создание нового проекта
+django-admin.exe startproject dumb_santa .
+
+# создание нового приложения В ПРОЕКТЕ
+python manage.py startapp dumb_santa_register
+
+# инициализация создания DB
+python manage.py migrate
+
+# инициализация изменений в DB
+python manage.py makemigrations dumb_santa_register
+
+# запуск сервера
+python manage.py runserver
+
+# GIT
+## копирование репозитория
+git clone https://github.com/badbread42/dumb_santa.git
+
+
+
+
+
+386547099	1	17299	514										2018-12-07			Thu Jan 01 13:51:57 MSK 1970			2018-12-07	Thu Jan 01 13:51:57 MSK 1970								p000013	t124779					2018-12-07			0		0			Thu Jan 01 13:51:57 MSK 1970		0	0						0	0			0	0						0			0		0	0	0		SCF_NMF	0	0	0					SCF	REALPLVM	82	DEAL	9			Insert				
