@@ -160,12 +160,13 @@
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
-      <form class="form-signin">
+      <form method="POST" class="form-signin">
         <!--h2 class="form-signin-heading">REGISTER!</h2-->
-        <label for="address" class="sr-only">Email address</label>
+        <!--label for="address" class="sr-only">Email address</label>
         <input type="email" id="address" class="form-control" placeholder="iwilldonatyou@rencap.com" required autofocus>
         <label for="extends" class="sr-only">Extend text</label>
-        <input type="text" id="extends" class="form-control" placeholder="алергии, неприязнь, нетерпимости" required autofocus>
+        <input type="text" id="extends" class="form-control" placeholder="алергии, неприязнь, нетерпимости" required autofocus-->
+		{{ form.as_p }}
         <!--label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <div class="checkbox">
